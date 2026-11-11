@@ -11,6 +11,7 @@ class Controller {
             die("View does not exist.");
         }
 
+        
         // Capture view content via output buffering
         ob_start();
         require $viewFile;
